@@ -1,0 +1,13 @@
+#!/bin/bash
+
+HOST="192.168.1.5"
+PORT=8060
+YOUTUBE=837
+
+# THIS WILL LAUNCH YOUTUBE
+url="http://$HOST:$PORT/launch/$YOUTUBE" 
+curl -X POST  -d " " $url
+echo "LAUNCHING YOUTUBE"
+
+#curl -X GET "http://$HOST:$PORT/keypress/Right"
+#curl -X GET "http://$HOST:$PORT/keypress/Enter"
