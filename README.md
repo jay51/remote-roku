@@ -6,6 +6,7 @@ To do that you can make an ssdb request. roku-req.txt contains an example of an 
 The `ssdb.c` file will help you see ssdb trafic (ssdb might take sometime to respond) <br/>
 once you have the ip and port (8060), you can communicate with the device through api end points <br/>
 
+#### To learn more about uPnp, checkout: https://www.electricmonk.nl/log/2016/07/05/exploring-upnp-with-python/ <br/>
 
 ## Example
 
