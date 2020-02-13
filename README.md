@@ -19,3 +19,5 @@ curl -X GET http://<ip>:<port>/query/apps <br/>
 
 |> Jaku is an example java project taken from the roku repo to discover devices and communicate with the device. <br/>
 |> I analyzed the project refactored and documented it for easier read (all important code is located in /src) <br/>
+
+|> If you have the ip of your roku tv, you could also use http://remoku.tv/ to control the tv.
